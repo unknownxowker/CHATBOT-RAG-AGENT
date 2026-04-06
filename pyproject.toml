@@ -1,0 +1,21 @@
+[project]
+name = "chatbot-rag"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "chromadb>=1.5.5",
+    "fastapi>=0.135.3",
+    "ipython>=9.12.0",
+    "langchain>=1.2.15",
+    "langchain-community>=0.4.1",
+    "langchain-ollama>=1.0.1",
+    "langchain-openai>=1.1.12",
+    "langgraph>=1.1.6",
+    "langgraph-api>=0.7.96",
+    "langgraph-cli[inmem]>=0.4.19",
+    "pypdf>=6.9.2",
+    "python-dotenv>=1.2.2",
+    "tiktoken>=0.12.0",
+]

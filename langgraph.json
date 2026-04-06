@@ -1,0 +1,5 @@
+{ 
+    "dependencies" : ["langchain_openai", "./"],
+    "graphs" :{"my_agent_rag" : "./agentrag.py:agent"},
+    "env" :"./.env"
+}
